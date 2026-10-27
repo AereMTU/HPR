@@ -39,6 +39,8 @@ These must be manually configured if installed. See [Oscillators](./Oscillators.
 |---|---|---|
 | PF0 | `I2C2_SDA` | I2C2 Data |
 | PF1 | `I2C2_SCL` | I2C2 Clock |
+| PF15 | `I2C2_SDA_OUT` | I2C2 Data |
+| PF14 | `I2C2_SCL_OUT` | I2C2 Clock |
 
 | Device | Component | Notes |
 |---|---|---|
