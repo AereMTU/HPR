@@ -1,0 +1,57 @@
+# Build output
+build/
+toolchain/build/
+cmake-build-*/
+
+# Compiled firmware and intermediate files
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+*.a
+*.lib
+*.d
+*.su
+*.cyclo
+*.gcda
+*.gcno
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# IDE settings
+.vscode/
+.idea/
+*.suo
+*.user
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Debugger output
+*.launch
+
+# Local environment files
+.env
+.env.*
+!.env.example

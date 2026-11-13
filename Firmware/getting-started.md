@@ -42,9 +42,41 @@ Depending on the chip you will be developing for, you need to download the requi
 
 - [STM32CubeH7](https://www.st.com/en/embedded-software/stm32cubeh7.html) - For the H7 family of microcontrollers (used in FCM).
 
-### 6. (Optional) GitHub Desktop
+### 6. STM32CubeCLT
+
+#### Windows 
+
+These are command line tools used to compile code for ARM, and it is required. Download it [here](https://www.st.com/en/development-tools/stm32cubeclt.html?icmp=tt38569_gl_lnkon_apr2024) and select the download appropriate for your system, then run the installer located inside the zip file.
+
+### 7. CMake (If not installed already)
+
+Check if you have CMake installed already:
+
+```bash
+cmake --version
+```
+
+If not, download it from [here](https://cmake.org/download/).
+
+### 8. Ninja
+
+Download Ninja [here](https://github.com/ninja-build/ninja/releases). Extract the archive and move the ninja.exe file into `C:\Windows`.
+
+### 9. (Optional) GitHub Desktop
 
 I would recommend learning to use Git from the command line as it is much faster and more powerful, but if you would prefer to have a GUI to guide you (like Alec) then you can download GitHub Desktop from [here](https://github.com/apps/desktop).
+
+
+### 10. Quick Check
+
+Make sure your software is properly installed by opening a new terminal session and running:
+
+```sh
+cmake --version
+ninja --version
+arm-none-eabi-gcc --version
+arm-none-eabi-g++ --version
+```
 
 ## Accessing Source Code
 
