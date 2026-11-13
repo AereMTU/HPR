@@ -1,0 +1,58 @@
+# Do not modify line endings in third_party or its subdirectories
+Legacy/** -text -eol
+IREC_2027/** -text -eol
+
+# Set default behavior to automatically normalize line endings to LF
+* text=auto eol=lf
+
+# C/C++ source and header files
+*.c     text eol=lf
+*.cpp   text eol=lf
+*.cc    text eol=lf
+*.cxx   text eol=lf
+*.h     text eol=lf
+*.hpp   text eol=lf
+*.hh    text eol=lf
+*.hxx   text eol=lf
+*.inl   text eol=lf
+*.ipp   text eol=lf
+
+# Build systems and Unix scripts (must use LF)
+CMakeLists.txt  text eol=lf
+*.cmake         text eol=lf
+Makefile        text eol=lf
+*.mk            text eol=lf
+*.sh            text eol=lf
+*.bash          text eol=lf
+
+# Windows-specific scripts and Visual Studio files (require CRLF)
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.ps1           text eol=crlf
+*.sln           text eol=crlf
+*.vcxproj       text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.rc            text eol=crlf
+
+# Documentation and configuration
+*.md            text eol=lf
+*.json          text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.clang-format  text eol=lf
+*.clang-tidy    text eol=lf
+
+# Compiled binaries, libraries, and assets (never alter)
+*.exe   binary
+*.dll   binary
+*.so    binary
+*.dylib binary
+*.a     binary
+*.lib   binary
+*.obj   binary
+*.o     binary
+*.pdb   binary
+*.pch   binary
+*.png   binary
+*.jpg   binary
+*.ico   binary

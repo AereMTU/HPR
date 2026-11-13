@@ -39,8 +39,6 @@ These must be manually configured if installed. See [Oscillators](./Oscillators.
 |---|---|---|
 | PF0 | `I2C2_SDA` | I2C2 Data |
 | PF1 | `I2C2_SCL` | I2C2 Clock |
-| PF15 | `I2C2_SDA_OUT` | I2C2 Data |
-| PF14 | `I2C2_SCL_OUT` | I2C2 Clock |
 
 | Device | Component | Notes |
 |---|---|---|
@@ -53,8 +51,8 @@ These must be manually configured if installed. See [Oscillators](./Oscillators.
 
 | MCU Pin | Net | Function |
 |---|---|---|
-| PC8 | `MSD_DAT0` | SD Data 0 |
-| PC9 | `MSD_DAT1` | SD Data 1 |
+| PC8 | `MSD_DAT1` | SD Data 1 |
+| PC9 | `MSD_DAT0` | SD Data 0 |
 | PC10 | `MSD_DAT2` | SD Data 2 |
 | PC11 | `MSD_CD_DAT3` | SD Data 3 |
 | PC12 | `MSD_CLK` | SD Clock |
